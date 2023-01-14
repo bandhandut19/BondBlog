@@ -1,0 +1,220 @@
+/* 
+@media screen and (max-width:1385px){
+
+    
+    body{
+        background-color: rgb(252, 164, 164);
+    }
+    .container-right{
+        display: none;
+    }
+    #logo{
+        display: inline-block;
+        margin-left:25rem ;
+    }
+    .nav-logo-left ul{
+        position: relative;;
+        top: 4rem;
+        left: -30rem;
+    }
+    .nav-search-right{
+        position: relative;
+        top: 1rem;
+        left: -30rem;
+    }
+    .nav-search-right .search-btn{
+        position: relative;
+        left: 2.5rem;
+    }
+
+    .hr-1{
+        display: none;
+    }
+
+
+    .articles .title h4{
+        position: relative;
+        left: 7rem;
+    }
+    .year-option h4{
+        left: -17rem;
+    }
+
+    
+
+     .article{
+        flex-direction: column;
+        left: 1rem;
+     }
+    .descrip{
+        position: relative;
+        
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Taken almost 3 days break of frustratings */
+
+
+/* @media screen and (max-width: 767px) {
+    .container-right img {
+        display: none;
+    }
+    .container-left {
+        flex-direction: row;
+        top: 8rem;
+        position: relative;
+        gap: 5rem;
+    }
+    .container-left h4{
+        height: 5rem;
+        font-size: 2rem;
+    }
+    .nav-logo-left {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        left: 5rem;
+    }
+
+    .nav-logo-left h4 {
+        display: inline-block;
+    }
+
+    #logo {
+        top: 2rem;
+        left: 18rem;
+        position: relative;
+        font-size: 5rem;
+    }
+
+    .nav-logo-left ul {
+        position: relative;
+        left: -1rem;
+        top: 4rem;
+    }
+
+    .nav-search-right {
+        top: 1rem;
+        position: relative;
+        left: 3rem;
+    }
+
+    .nav-search-right .search-btn {
+        position: relative;
+        left: 2.5rem;
+    } */
+
+
+
+
+    /* content  */
+    /* .content {
+        display: inline-block;
+        position: relative;
+        left: 20rem;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    hr {
+        position: relative;
+        width: 59rem;
+        overflow: hidden;
+    }
+
+    .title {
+        position: relative;
+        left: 20rem;
+
+    }
+
+    .title h4 {
+        font-size: 3rem;
+    }
+
+    .year-option h4 {
+        position: relative;
+        right: -1rem;
+        left: -5.5rem;
+    } */
+
+
+
+    /* articles */
+    /* .article {
+        position: relative;
+        flex-direction: column;
+        gap: 0.2rem;
+        align-items: center;
+        width: 54rem;
+        overflow: hidden;
+    }
+
+    .article-img {
+        position: relative;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .vr1 {
+        display: none;
+    }
+
+    .imgw {
+        height: 14rem;
+        width: 18rem;
+    }
+    .descrip{
+        margin: 2rem;
+    }
+
+
+    .footer{
+        width: 290vw;
+        overflow: hidden;
+    }
+} */

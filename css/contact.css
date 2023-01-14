@@ -1,0 +1,45 @@
+.contact-pg{
+    display: grid;
+    position: relative;
+    top: 8rem;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15rem;
+}
+
+
+.con-l form input ,textarea{
+    display: flex;
+    position: relative;
+    margin: 0.25rem 0;
+    padding: 0.75rem;
+    width: 40vw;
+    text-align: center;
+    border-radius: 0.55rem;
+}
+
+.con-l form .btn-1{
+    width: 6rem;
+}
+.con-r img {
+    height: 15rem;
+    background-color: var(--color-ar-br);
+    margin-top: 0.8rem;
+    margin-right: 1.5rem;
+    border: 0.1rem solid transparent;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 30rem;
+    background-color: var(--color-hov);
+}
+.footer h1 {
+    color: black;
+    font-size: 1.5rem;
+}

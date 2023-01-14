@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    list-style: none;
+    font-family: var(--font-all-1);
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: transparent;
+}
+#logo{
+    font-size: 3rem;
+    font-family: var(--font-logo);
+    color: var(--logo-color);
+
+}
+
+.nav-logo-left ul{
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.nav-logo-left ul li a{
+    margin: 0 2rem 0;
+    color: black;
+    font-family: var(--font-nav);
+}
+.nav-logo-left{
+    display: flex;
+}
+
+
+#search-bar{
+    outline: none;
+    border: 2px solid black;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    margin: 0.5rem 0.5rem;
+}
+
+.search-btn{
+    outline: none;
+    border: 2px solid black;
+    padding: 0.25rem 0.8rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+
+}
+
+
+
+/* .......................... /CONTENT\   ........................ */
+
+
+.content{
+    /* height: 20rem; */
+    height: 100%;
+    position: relative;
+    /* background-color: var(--color-bg); */
+    display: flex;
+    gap: 5rem;
+
+}
+.container-left{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    /* margin: 5.2rem 0 0 1rem; */
+    margin-left: 1rem;
+}
+.container-left h4{
+    margin: 1rem 0;
+}
+.container-right img {
+    height: 15rem;
+    background-color: var(--color-ar-br);
+    margin-top: 0.8rem;
+    margin-right: 1.5rem;
+    border: 0.1rem solid transparent;
+    border-radius: 50%;
+    padding: 1rem;
+}
+.container-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr-1{
+    position: relative;
+    top: 2rem;
+}
+.hr-2{
+    position: relative;
+    top: 0.75rem;
+}
+
+
+/* .......................... /Articles\   ........................ */
+
+
+.year-option{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    top: rem;
+}
+
+
+/* .year-option h4{
+    display: inline;
+    right: 35rem;
+    position: relative;
+} */
+.year-option h2 {
+    display: inline;
+    position: relative;
+    left: 1.5rem;
+
+}
+
+
+
+
+.articles{
+    /* background-color: red; */
+    position: relative;
+    top: 5rem;
+    
+}
+.articles h5{
+    font-family: var(--font-logo);
+    font-size: 4rem;
+}
+
+.articles h4{
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 3rem;
+    font-family: var(--font-logo);
+}
+
+.vr1{
+    display: inline-block;
+    top: 2.7rem;
+    position: relative;
+    border-right: 0.1rem solid var(--color-vr);
+    height: 12rem;
+}
+
+.article{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 15rem;
+    top: 2rem;
+    border: 0.25rem solid var(--color-ar-br);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--color-ar-b);
+}
+
+.descrip{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-right: 4rem;
+
+}
+.descrip span{
+    position: relative;
+    margin: 0.20rem 0;
+}
+.descrip p{
+    position: relative;
+    margin-top: 0.25rem;
+}
+
+.articledetails h4{
+    margin-bottom: 2rem;
+}
+
+
+/* .......................... /FOOTER\   ........................ */
+
+
+
+
+
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 10rem;
+    height: 20rem;
+    background-color: var(--color-hov);
+}
+.footer h1 {
+    color: black;
+    font-size: 1.5rem;
+}

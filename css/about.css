@@ -1,0 +1,14 @@
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 10rem;
+    height: 20rem;
+    background-color: var(--color-hov);
+}
+.footer h1 {
+    color: black;
+    font-size: 1.5rem;
+}
